@@ -1,0 +1,82 @@
+/* Carousel container est là où défilera les images */
+.carousel-container {
+    width: 50vh; /* Largeur du carrousel */
+    height: 35vh; /* Hauteur du carrousel */
+    position: relative; /* Position relative pour permettre aux éléments internes d'être positionnés */
+    margin: auto; /* Centrer le carrousel */
+}
+
+/* Création du style pour les boutons de navigation */
+.navigation-buttons .previous {
+    position: absolute; /* Positionner le bouton précédant */
+    z-index: 10; /* Élever le niveau d'affichage */
+    font-size: 25px; /* Taille de la police */
+    top: 45%; /* Position verticale */
+    left: -50px; /* Position horizontale à gauche */
+    font-weight: 700; /* Gras */
+    color: black; /* Couleur du texte des boutons */
+}
+
+.navigation-buttons .next {
+    right: -50px; /* Position horizontale à droite */
+    position: absolute; /* Positionner le bouton suivant */
+    font-size: 25px; /* Taille de la police */
+    z-index: 10; /* Élever le niveau d'affichage */
+    top: 45%; /* Position verticale */
+    color: black; /* Couleur du texte des boutons */
+}
+
+/* Style commun pour les boutons */
+.navigation-buttons .nav-btn {
+    background: rgba(255, 255, 255, 0.55); /* Couleur de fond avec transparence */
+    cursor: pointer; /* Curseur pointer */
+    border-radius: 50%; /* Arrondi des bords */
+    width: 30px; /* Largeur du bouton */
+    height: 30px; /* Hauteur du bouton */
+    display: flex; /* Utiliser le modèle flex */
+    justify-content: center; /* Centrer le contenu horizontalement */
+    align-items: center; /* Centrer le contenu verticalement */
+    padding: 5px; /* Espacement interne */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4); /* Ombre */
+}
+
+/* Changement de style au survol */
+.navigation-buttons .nav-btn:hover {
+    background: white; /* Changer le fond au survol */
+}
+
+/* Conteneur pour le carrousel d'images */
+.slider-carousel {
+    transition: all 0.3s ease; /* Transition fluide */
+}
+
+/* Style pour les images du carrousel */
+.slider-carousel img {
+    width: 100%; /* Largeur de l'image */
+    transition: all 0.3s ease; /* Transition fluide */
+} 
+
+/* Toutes les images sont initialement cachées */
+.images {
+    position: absolute; /* Positionnement absolu */
+    display: none; /* Ne pas afficher par défaut */
+}
+
+/* Classe appliquée à l'image active */
+.main {
+    display: block; /* Afficher l'image active */
+}
+
+/* Style pour le texte superposé en bas de chaque image */
+.image-text {
+    position: absolute; /* Positionnement absolu */
+    bottom: 0; /* Position en bas */
+    width: 100%; /* Largeur du texte */
+    display: flex; /* Utiliser le modèle flex */
+    font-size: 20px; /* Taille de la police */
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+    color: rgb(255, 255, 255); /* Couleur du texte */
+    background: rgba(0, 0, 0, 0.3); /* Fond transparent */
+    height: 35px; /* Hauteur du texte */
+}
