@@ -1,0 +1,43 @@
+
+img {
+    display: block;
+  width: 35vh;
+  margin: auto;
+}
+h1 {
+    color: black;
+    text-align: center;
+}
+
+p {font-family: 'inherit';
+    text-align: center;
+}
+
+body {
+    background-image: url(../images/all_disney.jpeg);
+    background-repeat: no-repeat; /* Ne pas répéter l'image */
+    background-size: cover;
+    background-attachment: fixed; /* Fixe l'image de fond */
+    background-position: center;
+    margin: 0; /* Supprime les marges par défaut */
+    padding: 0; /* Supprime les espaces par défaut */
+}
+
+
+.text-background {
+    background-color: rgba(255, 255, 255, 0.8); /* Couleur de fond blanc avec une transparence */
+    padding: 20px; /* Espacement intérieur pour donner de l'air au texte */
+    border-radius: 10px; /* Coins arrondis */
+    margin: 20px auto; /* Centrer et espacement autour */
+    max-width: fit-content; /* Largeur maximale du conteneur */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère pour donner de la profondeur */
+}
+
+.marque-background {
+    background-color: rgba(255, 255, 255, 0.245); /* Couleur de fond blanc avec une transparence */
+    padding: 10px; /* Espacement intérieur pour donner de l'air au texte */
+    border-radius: 10px; /* Coins arrondis */
+    margin: 20px auto; /* Centrer et espacement autour */
+    max-width: fit-content; /* Largeur maximale du conteneur */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère pour donner de la profondeur */
+}

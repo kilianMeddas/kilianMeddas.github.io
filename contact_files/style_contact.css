@@ -1,0 +1,10 @@
+.image-block {
+    overflow: hidden;
+    margin-bottom: 20px; /* Add some spacing between blocks */
+}
+
+img {
+    float: left;
+    height: 20vh;
+    margin-right: 15px; /* Adjust margin as needed */
+}

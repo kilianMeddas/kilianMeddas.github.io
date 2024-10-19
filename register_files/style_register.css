@@ -1,0 +1,111 @@
+
+img {
+    display: block;
+  width: 35vh;
+  margin: auto;
+}
+h1 {
+    color: black;
+    text-align: center;
+}
+
+p {font-family: 'inherit';
+    text-align: center;
+    font-size: 150%;
+}
+
+body {
+    background-image: url(../images/all_disney.jpeg);
+    background-repeat: no-repeat; /* Ne pas répéter l'image */
+    background-size: cover;
+    background-attachment: fixed; /* Fixe l'image de fond */
+    background-position: center;
+    margin: 0; /* Supprime les marges par défaut */
+    padding: 0; /* Supprime les espaces par défaut */
+    height: 100vh;
+}
+
+
+.text-background {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Align elements in a column */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+
+    background-color: rgba(255, 255, 255, 0.8); /* Couleur de fond blanc avec une transparence */
+    padding: 20px; /* Espacement intérieur pour donner de l'air au texte */
+    border-radius: 10px; /* Coins arrondis */
+    margin: 20px auto; /* Centrer et espacement autour */
+    max-width: fit-content; /* Largeur maximale du conteneur */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère pour donner de la profondeur */
+}
+
+.marque-background {
+    background-color: rgba(255, 255, 255, 0.245); /* Couleur de fond blanc avec une transparence */
+    padding: 10px; /* Espacement intérieur pour donner de l'air au texte */
+    border-radius: 10px; /* Coins arrondis */
+    margin: 20px auto; /* Centrer et espacement autour */
+    max-width: fit-content; /* Largeur maximale du conteneur */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère pour donner de la profondeur */
+}
+
+/* style_register.css */
+
+/* Style for the email section */
+.email-section {
+    margin-bottom: 20px; /* Adds space after the email section */
+    border-bottom: 1px solid #ccc; /* Adds a separator line */
+    padding-bottom: 10px; /* Adds padding for space within the section */
+}
+
+/* Style for the rest of the form */
+.form-section {
+    margin-top: 20px; /* Adds space before the form fields */
+}
+
+.btn {
+    font-size: 1.2em; /* Adjust button size if needed */
+}
+
+/* style_register.css */
+
+/* Style for the email field */
+.email-section {
+    margin-bottom: 40px; /* Espace entre l'email et la suite du formulaire */
+    padding: 10px; /* Ajout d'espace à l'intérieur de la zone email */
+    border-bottom: 2px solid #ccc; /* Ligne de séparation si souhaité */
+}
+
+/* Optionnel : ajuster le champ email lui-même si nécessaire */
+.email-section input {
+    padding: 10px; /* Espace interne autour du texte dans le champ */
+    font-size: 1.1em; /* Agrandir légèrement le texte */
+    width: 100%; /* S'assurer que le champ prend toute la largeur disponible */
+}
+/* style_register.css */
+
+/* Style for the email section */
+.email-section {
+    margin-bottom: 40px; /* Espace sous le champ email */
+    padding: 10px; /* Espace intérieur de la zone email */
+    border-bottom: 2px solid #ccc; /* Ligne de séparation sous l'email */
+}
+
+/* Style for the password section */
+.password-section {
+    margin-bottom: 40px; /* Espace sous le champ password */
+    padding: 10px; /* Espace intérieur autour du champ password */
+    border-bottom: 2px solid #ccc; /* Ligne de séparation sous le password */
+}
+
+/* Optionnel : ajuster le champ password lui-même */
+.password-section input {
+    padding: 10px; /* Espace interne dans le champ */
+    font-size: 1.1em; /* Taille du texte */
+    width: 100%; /* S'assurer que le champ prend toute la largeur */
+}
+
+/* Ajustements pour le bouton */
+.btn {
+    font-size: 1.2em;
+}
